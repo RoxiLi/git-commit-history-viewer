@@ -1,69 +1,58 @@
-Git Commit History Viewer
-This project provides a web application to view the git commit history of a given repository. It consists of a backend server built with Node.js and Express, and a frontend application developed with Angular.
+# Git Commit History Viewer
 
-Table of Contents
-Prerequisites
-Installation
-Backend
-Frontend
-Running the Application
-Usage
-Contributing
-License
-Prerequisites
-Node.js (v14+ recommended)
-npm (v6+ recommended)
-Angular CLI
-Installation
-Backend
-Navigate to the backend directory:
+This project provides a web application that displays the git commit history of a specified repository. It's built using a backend server with Node.js and Express.js, and a frontend developed with Angular.
 
-bash
-Copy code
-cd path_to_project_directory/backend
-Install the required dependencies:
+## Table of Contents
 
-Copy code
-npm install
-Create a .env file in the root of the backend directory and add the necessary environment variables. For example:
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-makefile
-Copy code
-PORT=3000
-Frontend
-Navigate to the frontend directory:
+## Prerequisites
 
-bash
-Copy code
-cd path_to_project_directory/frontend
-Install the required dependencies:
+- Node.js
+- Angular CLI
 
-Copy code
-npm install
-Update the environment.ts file with the appropriate API URL if needed.
+## Installation
 
-Running the Application
-Backend
-From the backend directory, run:
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd [your-repository-name]
 
-sql
-Copy code
-npm start
-This will start the Express server on the port specified in the .env file (default is 3000).
+2. Backend Setup:
+   ```bash
+   cd backend
+    npm install
+   
+4. Frontend Setup:
+   ```bash
+   cd frontend
+   npm install
 
-Frontend
-From the frontend directory, run:
 
-Copy code
-ng serve
-This will start the Angular development server. You can access the application at http://localhost:4200/.
+## Running the Project
+1. Start the Backend Server:
+   ```bash
+   cd backend
+   npm start
+3. Start the Frontend Application:
+   ```bash
+   cd frontend
+   ng serve
+5. Open your web browser and navigate to http://localhost:4200.
 
-Usage
-Open the application in a web browser.
-Enter the owner and repository name in the provided input fields.
-Click on the "Search" button to view the commit history.
-Contributing
-If you'd like to contribute to this project, please create a fork, make your changes, and submit a pull request.
+## Usage
+1. Enter the owner and repository name in the provided input fields.
+2. Click the "Search" button.
+3. View the commit history displayed below.
 
-License
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
