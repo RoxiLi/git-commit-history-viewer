@@ -49,7 +49,7 @@ This project provides a web application that displays the git commit history of 
 1. Enter the owner and repository name in the provided input fields.
 2. Click the "Search" button.
 3. View the commit history displayed below.
-   ![Texto alternativo](https://github.com/RoxiLi/git-commit-history-viewer/frontend/src/assets/images/page.png)
+   ![Texto alternativo](./page.png)
   
 
 
