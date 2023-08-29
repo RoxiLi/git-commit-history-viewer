@@ -8,7 +8,6 @@ app.use(cors()); // Enables CORS for all routes
 app.use(express.json());
 // Error handling (basic error middleware)
 app.use((err: unknown, req: Request, res: Response, next: NextFunction) => {
-  console.error(err.stack);
   res.status(500).send('¡Something went wrong!')
   next();
 });
